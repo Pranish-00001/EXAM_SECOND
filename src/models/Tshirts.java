@@ -73,7 +73,7 @@ public class Tshirts {
 // CUSTOM METHOD TO VIEW PRODUCT DETAILS
     public void describe(){
         System.out.println("\n\nItem_name\t\t"+this.name+"\nDescription\t"+this.description+ """
-                Product code\t"""+this.code+"\nBrand\t\t"+this.brand+"\nPrice\t\t"+this.price+"\nSizes\t\t"+ Arrays.toString(this.sizes));
+                \nProduct code\t"""+this.code+"\nBrand\t\t"+this.brand+"\nPrice\t\t"+this.price+"\nSizes\t\t"+ Arrays.toString(this.sizes));
     }
 
 }
